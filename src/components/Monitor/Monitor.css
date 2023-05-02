@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+/* font-family: 'Orbitron', sans-serif; */
+
+.Monitor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid rgb(123, 255, 0); */
+
+    /* background-image: url('../../images/stars.png');
+    background-size: 99%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: 6s move-background ease-in-out infinite; */
+}
+
+.PrincipalBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-bottom: 40px; */
+}
+
+.PrincipalBanner img {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.InfoCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-bottom: 40px;
+    border: 2px solid rgb(255, 0, 0);
+    
+}
+
+.InfoLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 3px solid #66ff00;
+    border-radius: 20px 0 20px;
+    box-shadow: 0 0 10px #66ff00, 0 0 10px #66ff00; */
+    /* border: 2px solid rgb(255, 230, 4); */
+}
+
+.InfoLeft h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff00;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #66ff00, 0 0 5px #66ff00;
+}
+
+.InfoLeft p {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.InfoRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid rgb(102, 255, 0);
+}
+
+.InfoRight p {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.InfoRight img {
+    display: flex;
+    width: 55%;
+    transform: scaleX(-1);
+}
+
+.InfoSocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 16%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+    /* border: 2px solid rgb(0, 68, 255); */
+}
+
+.InfoSocial a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.InfoSocial img {
+    display: flex;
+    width: 60%;
+}
+
+.buttontwitter {
+    border-radius: 138px;
+    background-color: #0F1015;
+    border: 5px solid #66ff00;
+    transition: 0.5s ease-in-out;
+    color: #66ff00;
+    box-shadow: inset 0 0 5px #66ff00, 0 0 10px #66ff00;
+}
+
+.buttontwitter:hover {
+    /* transform: rotate(360deg) scale(1.1); */
+    background-color: #0F1015;
+    border: 5px solid #66ff00;
+    color: #55ACEE;
+    box-shadow: inset 0 0 15px #66ff00, 0 0 20px #66ff00;
+}
+
+.buttondiscord {
+    border-radius: 138px;
+    background-color: #0F1015;
+    border: 5px solid #66ff00;
+    transition: 0.5s ease-in-out;
+    color: #66ff00;
+    box-shadow: inset 0 0 5px #66ff00, 0 0 10px #66ff00;
+}
+
+.buttondiscord:hover {
+    /* transform: rotate(360deg) scale(1.1); */
+    background-color: #0F1015;
+    border: 5px solid #66ff00;
+    color: #5662F6;
+    box-shadow: inset 0 0 15px #66ff00, 0 0 20px #66ff00;
+}
+
+.buttonlaunchnft {
+    border-radius: 138px;
+    background-color: #0F1015;
+    border: 5px solid #66ff00;
+    transition: 0.5s ease-in-out;
+    color: #66ff00;
+    box-shadow: inset 0 0 5px #66ff00, 0 0 10px #66ff00;
+}
+
+.buttonlaunchnft:hover {
+    /* transform: rotate(360deg); */
+    background-color: #0F1015;
+    border: 5px solid #66ff00;
+    color: #2282ff;
+    box-shadow: inset 0 0 15px #66ff00, 0 0 20px #66ff00;
+}
+
+.buttonlaunchnft:hover,
+.buttondiscord:hover,
+.buttontwitter:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+.PlanetSpace2 {
+    z-index: -1;
+    position: absolute; 
+    left: 100px;
+    bottom: -110px;
+    /* animation: 3s PlanetMove ease-in-out infinite; */
+}
+
+.PlanetSpace2 img{
+    width: 100%;
+}
+
+@keyframes PlanetMove2 {
+    0% {
+      transform: translateX(0%) translateY(4%) rotate(3deg);
+    }
+    50% {
+        transform: translateX(-1%) translateY(1%) rotate(0deg);
+    }
+    100% {
+        transform: translateX(0%) translateY(4%) rotate(3deg);
+    }
+  }
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 75%;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+.TitleSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(253, 4, 4); */
+}
+
+.TitleSection h2{
+    font-family: 'Orbitron', sans-serif;
+    color: #66ff00;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 0px;
+    /* margin-bottom: 20px; */
+    text-shadow: 0 0 5px #66ff00, 0 0 5px #66ff00;
+}
+
+.TitleSection h3{
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 0px;
+    /* margin-bottom: 20px; */
+    text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff;
+}
+
+.InformationSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid rgb(253, 4, 4); */
+}
+
+.InformationLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(238, 236, 236); */
+}
+
+.InformationLeft p{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: justify;
+    color: #fefffe;
+}
+
+.ImageRight {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+.ImageRight img{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+
+/*===========Media  Queries============*/
+
+@media screen and (max-width: 1450px) {
+    .Box {
+        width: 90%;
+        height: 75%;
+    }
+    .InformationLeft p{
+        font-size: 20px;
+    }
+    .ImageRight img{
+        height: 100%;
+    }
+    .InfoSocial {
+        width: 26%;
+    }
+    .PlanetSpace2 {
+        left: 0px;
+        bottom: -110px;
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .InformationLeft p{
+        font-size: 18px;
+    }
+    .ImageRight img{
+        height: 100%;
+    }
+    .PlanetSpace2 {
+        bottom: -230px;
+    }
+    .InfoSocial {
+        width: 30%;
+        margin-top: 100px;
+    }
+  }
+
+  @media screen and (max-width: 435px) {
+    .Monitor {
+        height: 100%;
+        /* border: 2px solid rgb(226, 9, 9); */
+    }
+    .Box {
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid rgb(238, 236, 236); */
+    }
+    .InformationSection {
+        flex-direction: column;
+        width: 100%;
+    }
+    .InformationLeft {
+        width: 100%;
+    }
+    .InfoSocial {
+        width: 60%;
+        margin-top: 100px;
+    }
+    .TitleSection h2{
+        font-size: 40px;
+    }
+    
+    .TitleSection h3{
+        font-weight: 800;
+        font-size: 17px;
+    }
+    .ImageRight img{
+        height: 0%;
+        display: none;
+    }
+    .PlanetSpace2 {
+        left: -10px;
+        bottom: 40px;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .PlanetSpace2 {
+        left: -10px;
+        bottom: 50px;
+    }
+    .PlanetSpace2 img {
+        width: 60%;
+    }
+  }
+  
+  @media screen and (max-width: 330px) {
+    .PlanetSpace2 {
+        left: -80px;
+        bottom: -30px;
+    }
+    .TitleSection h2{
+        font-size: 33px;
+    }
+    
+    .TitleSection h3{
+        font-weight: 800;
+        font-size: 14px;
+    }
+    .InfoSocial {
+        width: 75%;
+    }
+  }

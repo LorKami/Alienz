@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&display=swap');
+/* font-family: 'Orbitron', sans-serif; */
+
+.FooterSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+     background-image: url(../../images/logo.png); 
+     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 300px 300px; 
+     height: 768px; 
+     max-width: 100vw; 
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.FooterText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    width: 7%;
+    height: 768px;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.FooterText p {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.SpriteSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid rgb(255, 0, 0) */
+}
+
+.sprite {
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
+ 
+@media screen and (max-width: 1480px) {
+    .FooterText{
+        width: 9%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .FooterText{
+        width: 12%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .FooterText{
+        width: 16%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .FooterText{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .FooterText{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .FooterText{
+        width: 40%;
+    }
+}
