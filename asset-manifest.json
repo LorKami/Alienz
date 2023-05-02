@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c45751df.css",
+    "main.js": "/static/js/main.db70c938.js",
+    "static/media/loading2.gif": "/static/media/loading2.f21b87510d2f34ffc288.gif",
+    "static/media/Banner_1.png": "/static/media/Banner_1.a36da569231eaa01128a.png",
+    "static/media/stars2.png": "/static/media/stars2.081ebbc02589ee1b35a2.png",
+    "static/media/footerimage.png": "/static/media/footerimage.32f65a89360ec1d678cc.png",
+    "static/media/planet2.gif": "/static/media/planet2.fcdac6707cec7a6e64e3.gif",
+    "static/media/sprite.png": "/static/media/sprite.f8e931fd8e69b0a761b9.png",
+    "static/media/example3.png": "/static/media/example3.ba6f63a87fb234091c89.png",
+    "static/media/card4.png": "/static/media/card4.4a21c0b30ce6035ce5c0.png",
+    "static/media/example4.png": "/static/media/example4.9f360c6c15d96298c887.png",
+    "static/media/card3.png": "/static/media/card3.64d30fc0d80313380e71.png",
+    "static/media/planet1.gif": "/static/media/planet1.f0f7368b4d183e630455.gif",
+    "static/media/example10.png": "/static/media/example10.c17748378deef3bc3a1e.png",
+    "static/media/example12.png": "/static/media/example12.dd82d2ddd99487828318.png",
+    "static/media/card2.png": "/static/media/card2.54890813907db2fedb43.png",
+    "static/media/example6.png": "/static/media/example6.41364886ab5e422e325f.png",
+    "static/media/example5.png": "/static/media/example5.6a8c91430a9272a4c7ea.png",
+    "static/media/card1.png": "/static/media/card1.f06f751a1f78ef1ce763.png",
+    "static/media/example8.png": "/static/media/example8.cfd899750d000787f771.png",
+    "static/media/card5.png": "/static/media/card5.36481a81c9327a75164e.png",
+    "static/media/card6.png": "/static/media/card6.17bccffe89753bd76828.png",
+    "static/media/example11.png": "/static/media/example11.c259c43e506865e9732c.png",
+    "static/media/example7.png": "/static/media/example7.f4ec77d0e05e1b568fcb.png",
+    "static/media/example1.png": "/static/media/example1.262f45e44360bc5a2ed9.png",
+    "static/media/alien.png": "/static/media/alien.0cc741ad96d6ff1f78a4.png",
+    "static/media/example2.png": "/static/media/example2.169386a98bde3cae0005.png",
+    "static/media/example9.png": "/static/media/example9.724ebcd337387b403a1f.png",
+    "static/media/logo.png": "/static/media/logo.03a7bb99544f96a8e5ee.png",
+    "index.html": "/index.html",
+    "main.c45751df.css.map": "/static/css/main.c45751df.css.map",
+    "main.db70c938.js.map": "/static/js/main.db70c938.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c45751df.css",
+    "static/js/main.db70c938.js"
+  ]
+}
